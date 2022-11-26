@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Project_3.css">
+        <script type="text/javascript" src="Project_3.js"></script>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h1 class="container">Calculator</h1><br>
+        <form id="form" name="my_form" class="container">
+            <div>
+                <label for="fst">Input Number 1:</label><br>
+                <input id="fst" type="number" name="fst"><br><br>
+            </div>
+            <div>
+                <label for="snd">Input Number 2:</label><br>
+                <input id="snd" type="number" name="snd"><br><br><br>
+            </div>
+            <div>
+                <button type="button" onclick="add()">Add</button>
+                <button type="button" onclick="subtract()">Sub</button>
+                <button type="button" onclick="multiply()">Mul</button>
+                <button type="button" onclick="divide()">Div</button>
+                <button type="button" onclick="modulo()">Mod</button><br><br>
+            </div>
+
+
+            <div>
+                <label for="result">Result:</label><br>
+                <input type="text" name="result" readonly><br><br><br>
+            </div>
+
+
+        </form>
+    </body>
+</html>
